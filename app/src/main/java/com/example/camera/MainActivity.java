@@ -75,6 +75,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(gallery,GALLERY_REQUEST_CODE);
             }
         });
+
+        simpledemo();
+    }
+
+    private void simpledemo() {
+        Toast.makeText(this,"this is my first experence in github",Toast.LENGTH_LONG);
     }
 
 
